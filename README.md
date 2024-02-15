@@ -15,7 +15,7 @@ I wrote giac\_history for two reasons:
 
 * Even if I accept a Giac/Xcas fork just for my own purposes, I seem to be unable to compile the package on Ubuntu 22.04 LTS which is my main working platform. Regardless of the configure settings or the GCC/GXX standard, the compiler eventually throws fatal errors that I am not willing to troubleshoot, also because the Giac/Xcas source code is very sparsely documented. A shared library overwriting the GNU readline functions add\_history() and using\_history() was a much simpler and straightforward solution. 
 
-* the use case is a small handheld CAS device using the GiantBoard module <https://www.crowdsupply.com/groboards/giant-board> from Groboard and the Keyboard Featherwing gadget <https://www.solder.party/docs/keyboard-featherwing/> from Solder Party. The OS is the armhf version of Debian Buster for now. Sadly, both parts are out of production and/or unsupported but they were still lying around collecting dust. Boy did I have to reverse engineer stuff. 
+The use case is a small handheld CAS device using the GiantBoard module <https://www.crowdsupply.com/groboards/giant-board> from Groboard and the Keyboard Featherwing gadget <https://www.solder.party/docs/keyboard-featherwing/> from Solder Party. The OS is the armhf version of Debian Buster for now. Sadly, both parts are out of production and/or unsupported but they were still lying around collecting dust. Boy did I have to reverse engineer stuff. 
 
 
 
